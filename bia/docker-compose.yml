@@ -1,0 +1,11 @@
+services:
+  server:
+    image: 633740007402.dkr.ecr.us-east-1.amazonaws.com/bia-beanstalk:d4bf573
+    container_name: bia
+    ports:
+      - 80:8080
+    environment:
+      DB_USER: ${DB_USER}
+      DB_PWD: ${DB_PWD}
+      DB_PORT: ${DB_PORT}
+      DB_HOST: ${DB_HOST}
