@@ -1,6 +1,6 @@
 services:
   server:
-    image: 633740007402.dkr.ecr.us-east-1.amazonaws.com/bia-beanstalk:d4bf573
+    image: 633740007402.dkr.ecr.us-east-1.amazonaws.com/bia-beanstalk:3559084
     container_name: bia
     ports:
       - 80:8080
